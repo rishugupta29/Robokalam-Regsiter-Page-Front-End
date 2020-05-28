@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat';
+  padding: 20px;
+  background: #17a2b8;
+  word-wrap: break-word;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+  background-image: url("header.jpg");
+}
+
+.head1{
+  max-width: 220px !important;
+  margin-right: 1rem;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  border: 2px solid #007bff;
+  height: auto;
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.tandc{
+ padding-top: 10px;
+ font-size: 15px;
+}
+
+.tandc span{
+  color:#424241;
+}
+
+a{
+  color: #007bff;
+}
+
+.anchor1{
+  color: blue;
+}
+
+.head3{
+  color: #dc3545;
+  padding-bottom: 15px;
+}
+
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* STYLING FOR FORM */
+
+div, form, input, select{
+padding: 0;
+margin: 0;
+outline: none;
+font-family: 'Montserrat';
+font-size: 16px;
+color: black;
+}
+
+
+form {
+padding: 25px;
+}
+
+form {
+background: white;
+}
+
+.info {
+display: flex;
+flex-direction: column;
+}
+input, select {
+padding: 5px;
+margin-bottom: 30px;
+background: transparent;
+border: none;
+border-bottom: 1px solid black;
+}
+input::placeholder {
+color: grey;
+}
+option:focus {
+border: none;
+}
+option {
+background: white;
+border: none;
+}
+.checkbox input {
+margin: 0 10px 0 0;
+vertical-align: middle;
+}
+.btn-item, button {
+padding: 10px 5px;
+margin-top: 20px;
+border-radius: 5px;
+border: none;
+background: #007bff;
+text-decoration: none;
+font-size: 15px;
+font-weight: 400;
+color: #fff;
+}
+.btn-item {
+display: inline-block;
+margin: 20px 5px 0;
+}
+button {
+width: 100%;
+}
+button:hover, .btn-item:hover {
+background: #85d6de;
+}
+
+form {
+flex: 1;
+height: auto;
+}
